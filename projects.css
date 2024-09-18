@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dcd4c4;
+    overflow-y: scroll;
+}
+label.myname{
+    font-size: 30px;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+}
+
+ ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:#865151 ;
+    padding: 7px;
+    color: white;
+}
+span{
+    color: #AE5656;
+}
+.btn:hover{
+    background-color: #382828;
+}
+
+
+ 
+@media(max-width:800px){
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+}

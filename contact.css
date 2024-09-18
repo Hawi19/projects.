@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dcd4c4;
+  
+}
+label.myname{
+    font-size: 30px;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+}
+
+ ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+a:hover:not([type="social"], [type="social2"], [type="email"], [type="phone"]){
+    background-color:#865151 ;
+      padding: 7px;
+    color: white;
+}
+.social:hover{
+    background-color: #382828;
+   
+}
+
+
+
+span{
+    color: #AE5656;
+}
+.contact-form{
+    width: 50%;
+}
+.contact {
+    position: relative;
+    margin: auto;
+ 
+
+   
+}
+input{
+    width: 70%;
+}
+textarea{
+    width: 70%;
+}
+#mes{
+    height: 200px;
+}
+button{
+   width: 15%;
+   background-color: #865151;
+   border: none;
+   padding: 2px;
+   border-radius: 3px;
+
+
+}
+button:hover{
+    background-color: #382828;
+    color: white;
+}
+
+@media(max-width:800px){
+    #content {
+        flex-direction: column;
+     
+    }
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        }
+    .contact-form{
+        position: relative;
+        margin: auto;
+        margin-top: 7%;
+        width:  100%;
+        left: 20%;
+        top: 50%;
+
+    }
+    h2{
+        text-align: center;
+       
+    }
+    .contact{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+   
+       
+
+}
